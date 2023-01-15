@@ -1,0 +1,98 @@
+body
+{
+	background-color: lightGrey;
+	font-color: black;
+	font-family: Verdana, sans-serif;
+}
+ 
+ h1
+{
+	text-align: center;
+}
+ 
+.caption
+{
+	font-size: 12px;
+}
+.center
+{
+	border: 3px solid #FF5F1F;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+hr.dashed
+{
+	border-top: 3px dashed #FF5F1F;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+}
+
+hr.dashedgrey
+{
+	border-top: 3px dotted #000f;
+	border-bottom: 3px;
+	border-left: 3px;
+	border-right: 3px;
+}
+
+hr.solid
+{
+	border: 3px solid #FF5F1F;
+}
+
+.jumpto
+{
+	background-color: white;
+	border: 2px solid grey;
+	width: fit-content;
+	padding: 6px;
+}
+
+.centertxt
+{
+	text-align: center;
+}
+
+.sidenav 
+{
+	height: 100%; 
+	width: 8%; 
+	position: fixed; 
+	z-index: 1; 
+	top: 0; 
+	right: 0;
+	background-color:#FF5F1F; 
+	overflow-x: hidden; 
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sidenav a {
+	text-align: center;
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: White;
+	display: block;
+}
+
+.sidenav a:hover {
+	text-shadow: 0 0 32px white;
+}
+
+/* Style page content */
+.main {
+	margin-right: 160px; /* Same as the width of the sidebar */
+	padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+} 
