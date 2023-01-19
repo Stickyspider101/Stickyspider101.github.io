@@ -1,7 +1,7 @@
 body
 {
 	background-color: lightGrey;
-	background-image: url(resources/default_bg.gif);
+	background-image: url("resources/default_bg.gif");
 	background-repeat: repeat;
 	font-color: black;
 	font-family: Verdana, sans-serif;
@@ -85,7 +85,7 @@ hr.solid
 	top: 0; 
 	right: 0;
 	background-color:#ca6c00; 
-	background-image: url(resources/sidebar_bg.png);
+	background-image: url("resources/sidebar_bg.png");
 	background-repeat: repeat;
 	overflow-x: hidden; 
 	padding-top: 15px;
