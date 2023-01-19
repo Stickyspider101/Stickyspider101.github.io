@@ -1,6 +1,8 @@
 body
 {
 	background-color: lightGrey;
+	background-image: url(resources/default_bg.gif);
+	background-repeat: repeat;
 	font-color: black;
 	font-family: Verdana, sans-serif;
 }
@@ -82,11 +84,14 @@ hr.solid
 	z-index: 1; 
 	top: 0; 
 	right: 0;
-	background-color:#FF5F1F; 
+	background-color:#ca6c00; 
+	background-image: url(resources/sidebar_bg.png);
+	background-repeat: repeat;
 	overflow-x: hidden; 
 	padding-top: 15px;
 	padding-left: 10px;
 	padding-right: 10px;
+	border-left: 2px solid black;
 }
 
 .sidenav a {
