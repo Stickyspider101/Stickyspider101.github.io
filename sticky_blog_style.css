@@ -78,19 +78,18 @@ hr.solid
 	width: 5%; 
 	position: fixed; 
 	z-index: 1; 
-	top: 10px; 
-	right: 10px;
+	top: 0.5%; 
+	right: 0.5%;
 	background-color:#3f0166; 
 	overflow-x: hidden; 
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 15px;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
 	font-size: 12px;
 }
 
 .sidenav a {
 	text-align: center;
-	padding: 6px 8px 6px 16px;
+	padding: 0.1% 1% 2% 1%;
 	text-decoration: none;
 	color: White;
 	display: block;
@@ -111,38 +110,35 @@ hr.solid
 
 .pfp
 {
-	margin-top: 5px;
 	float: left;
 	display: block;
 	width: 50%;
 	border: 3px solid black;
-	margin-right: 5px;
+	margin-right: 1.5%;
 }
 
 .sidenavLeft
 {
-	left:10px;
+	left:0.1%;
 	width: 30%;
 	border: 2px solid black;
 	background-color: white;
 	color:black;
-	padding-left: 7px;
-	padding-right: 7px;
-	margin-bottom:5px;
-	margin-top: 1px;
+	padding-left: 0.2%;
+	padding-right: 0.2%;
+	margin-bottom:0.15%;
+	margin-top: 0.15%;
 }
 
-.sidenavLeft1
+.leftHeader
 {
-	float:left;
-	width: 30%;
-	border: 2px solid black;
-	background-color: white;
+	padding-left:0.2%;
+	padding-right:0.2%;
 	color:black;
-	padding-left: 7px;
-	padding-right: 7px;
-	margin-bottom:5px;
-	margin-top: 0px;
+	border: 2px solid black;
+	width:30%;
+	margin-bottom: 0px;
+	background-color: lightblue;
 }
 
 .contact
@@ -151,43 +147,20 @@ hr.solid
 	margin-right:1%;
 	text-align:center;
 	width: 40%;
-	padding-left: 3px;
-	padding-right: 3px;
-	padding-top: 4px;
-	padding-bottom: 4px;
+	padding-left: 0.15%;
+	padding-right: 0.15%;
+	padding-top: 0.3%;
+	padding-bottom: 0.3%;
 	background-color: lightgrey;
 	float: left;
 	border: 3px solid purple;
 }
 
-.leftHeader
-{
-	padding-left:7px;
-	padding-right:7px;
-	color:black;
-	border: 2px solid black;
-	width:30%;
-	margin-bottom: 0px;
-	background-color: lightblue;
-}
-
-.leftHeader1
-{
-	float:left;
-	padding-left:7px;
-	padding-right:7px;
-	color:black;
-	border: 2px solid black;
-	width:30%;
-	margin-bottom: 0px;
-	background-color: lightblue;
-}
-
 .about
 {
 	float:right;
-	margin-top: 7px;
-	padding: 1px;
+	margin-top: 0.2%;
+	padding: 0.15%;
 	background-color: lightblue;
 	width: 100%;
 }
@@ -202,39 +175,37 @@ hr.solid
 
 .centernavheader
 {
+	display:table-row;
 	border:2px solid black;
 	color:black;
-	width: 59.5%; 
-	position: fixed; 
-	z-index: 1; 
-	right: 10px;
 	background-color:lightblue; 
-	overflow-x: hidden; 
-	margin-right: 7.5%;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
 	font-size: 12px;
 }
 
 .centernav
 {
+	display:table-row;
 	border:2px solid black;
 	color:black;
-	width: 59.5%; 
-	position: fixed; 
-	z-index: 1; 
-	top: 85px;
-	right: 10px;
 	background-color:white; 
-	overflow-x: hidden; 
-	margin-right: 7.5%;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
-.centerSection
+.pcPic
 {
+	display:table-row;
+	margin-top: 0.5%;
+	float: left;
+	display: block;
+	width: 20%;
+	border: 3px solid black;
+	margin-right: 0.5%;
+}
+
+.centerWrap
+{
+	margin-right: 2.9%;
+	width: 65%;
+	border: 2px solid black;
+	display:table; 
 	float:right;
 }
