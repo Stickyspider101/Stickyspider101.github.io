@@ -1,105 +1,240 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<title>Sticky's Blog</title>
-		<link rel="stylesheet" href="sticky_blog_style.css">
-	</head>
-	<body>
-		<div class="main">
-			<!--begin sidenav bar-->
-			<div class="sidenav">
-				<br>
-				<br>
-				<a href="index.html"><img src="resources/logo_icon_600x600.png" alt="Placeholder Logo" class="sidenavimg"></a>
-				<br>
-				<br>
-				<a href="projects.html">Projects</a>
-				<hr class="solid">
-				<a href="demos.html">Demos</a>
-				<hr class="solid">
-				<a href="#">Contact</a>
-				<br>
-			</div>
-			<!--end sidenav bar-->
-			<div class="centerSection">
-				<div class="centernavheader">
-					<h1>Sticky's Blurb</h1>
-				</div>
-				<div class="centernav">
-					<p>&nbsp;I've been coding for around 5 years now, as well as working with robotics (which i no longer do, due to The Incident) and computers. I'm primarily working in C#, but have also taken courses in Java and am learning HTML. I'm currently working on an asymmetrical VR game with the Untiy game engine. I'm an avid collecter of all things retro tech, from old games to $5 TVs from Goodwill. If you have any retro tech you're willing to give away, have any Steam trading cards you're willing to donate to my 800+ collection, or just want to collaborate on a project, send me an email!</p>
-				</div>
-				<div class="centernavheader" style="top: 247px;">
-					<h1>Sticky's Hardware</h1>
-				</div>
-				<div class="centernav" style="top: 324px;">
-					<img src="resources/project_bebop.jpg" class="pfp" style="width:25%; float:right;">
-					<p>
-						<b>General:</b><br>
-						<i>Monitors:</i> 1x ViewSonic 1080p LCD, 1x Acer 1600x900<br>
-						<i>Keyboard:</i> Redragon K582 w/ Red Switches<br>
-						<i>Mouse:</i> Generic Wireless Gaming Mouse<br>
-						<i>Speakers:</i> amazonbasics USB Speakers<br>
-						<b>Main PC:</b><br>
-						<i>CPU:</i> Intel i5-11400F, 2.60GHz<br>
-						<i>GPU:</i> Nvidia GeForce RTX 3060<br>
-						<i>RAM:</i> 32gb (2x 16gb)<br>
-						<i>VR Headset:</i> Oculus Quest 2<br>
-						<b>Project Bebop (pictured):</b><br>
-						<i>CPU:</i> Intel Core 2 Duo E6400, 2.13GHz<br>
-						<i>GPU:</i> Intel Integrated Graphics<br>
-						<i>RAM:</i> 2gb (1x 2gb)<br>
-					</p>
-					<br>
-					<br>
-				</div>
-			</div>
-			<div class="leftHeader">
-				<h2>Sticky</h3>
-			</div>
-			<div class="sidenavLeft">
-				<img src="resources/pfp.png" alt="Sticky's PFP" class="pfp">
-				<p>"It is NOT easy to write CSS on a 5" CRT"</p>
-				<p>Genderless</p>
-				<p>16 years old</p>
-				<p>Eldritch Being, <br> South Carolina <br> United States</p>
-				<p>Sticky's Playlist: <a href="https://open.spotify.com/playlist/1Fxmu1ptBoge34ermPqjaO?si=66151e20edd44838">Here</a></p>
-				<div class="contact">
-					<a href="mailto:quinnrondeau@gmail.com"><b>Send a email</b></a>
-				</div>
-				<div class="contact">
-					<a href="https://www.youtube.com/channel/UCFdP4TQIVN1rzW6EHRKxiQw"><b>View Youtube</b></a>
-				</div>
-				<div class="contact">
-					<a href="#"><b>Send Bomb</b></a>
-				</div>
-				<div class="contact">
-					<a href="https://steamcommunity.com/id/allgoodURLstaken"><b>Sticky's Steam</b></a>
-				</div>
-				<div class="contact">
-					<a href="https://github.com/stickyspider101"><b>Sticky's Github</b></a>
-				</div>
-				<br>
-				<br>
-				<br>
-			</div>
-			<div class="leftHeader">
-				<h3 class="centertxt">About Sticky</h3>
-			</div>
-			<div class="sidenavLeft">
-				<div class="about">
-					<p><b>Working On:</b> Asymmetrical VR game, y2k PCs</p>
-				</div>
-				<br>
-				<br>
-				<br>
-				<div class="about">
-					<p><b>Interests:</b> Video games, old tech, breakcore</p>
-				</div>
-				<br>
-				<br>
-				<br>
-				<br>
-			</div>
-	</body>
-</html>
+body
+{
+	background-image: url("resources/sticky_blog_bg.png");
+	color: white;
+	font-family: Verdana, sans-serif;
+}
+ 
+ h1
+{
+	text-align: center;
+}
+ 
+.caption
+{
+	font-size: 12px;
+}
+
+.center
+{
+	border: 3px solid #FF5F1F;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.sidenavimg
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	scale:200%;
+	border: 3px solid black;
+}
+
+.sidenavimg:hover
+{
+	    box-shadow: 0px 0px 5px #fff;
+}
+
+hr.dashed
+{
+	border-top: 3px dashed #FF5F1F;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+}
+
+hr.dashedgrey
+{
+	border-top: 3px dotted #000f;
+	border-bottom: 3px;
+	border-left: 3px;
+	border-right: 3px;
+}
+
+hr.solid
+{
+	border: 3px solid #210136;
+}
+
+.jumpto
+{
+	background-color: white;
+	border: 2px solid grey;
+	width: fit-content;
+	padding: 6px;
+}
+
+.centertxt
+{
+	text-align: center;
+}
+
+.sidenav 
+{
+	width: 5%; 
+	position: fixed; 
+	z-index: 1; 
+	top: 10px; 
+	right: 10px;
+	background-color:#3f0166; 
+	overflow-x: hidden; 
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 15px;
+	font-size: 12px;
+}
+
+.sidenav a {
+	text-align: center;
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: White;
+	display: block;
+}
+
+.sidenav a:hover {
+	text-shadow: 0 0 32px white;
+}
+
+.main {
+	margin-right: 5%; 
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+} 
+
+.pfp
+{
+	margin-top: 5px;
+	float: left;
+	display: block;
+	width: 50%;
+	border: 3px solid black;
+	margin-right: 5px;
+}
+
+.sidenavLeft
+{
+	left:10px;
+	width: 30%;
+	border: 2px solid black;
+	background-color: white;
+	color:black;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-bottom:5px;
+	margin-top: 1px;
+}
+
+.sidenavLeft1
+{
+	float:left;
+	width: 30%;
+	border: 2px solid black;
+	background-color: white;
+	color:black;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-bottom:5px;
+	margin-top: 0px;
+}
+
+.contact
+{
+	font-size: 80%;
+	margin-right:1%;
+	text-align:center;
+	width: 15%;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-color: lightgrey;
+	float: left;
+	border: 3px solid purple;
+}
+
+.leftHeader
+{
+	padding-left:7px;
+	padding-right:7px;
+	color:black;
+	border: 2px solid black;
+	width:30%;
+	margin-bottom: 0px;
+	background-color: lightblue;
+}
+
+.leftHeader1
+{
+	float:left;
+	padding-left:7px;
+	padding-right:7px;
+	color:black;
+	border: 2px solid black;
+	width:30%;
+	margin-bottom: 0px;
+	background-color: lightblue;
+}
+
+.about
+{
+	float:right;
+	margin-top: 7px;
+	padding: 1px;
+	background-color: lightblue;
+	width: 100%;
+}
+
+.grid-container-element { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    border: 1px solid black; 
+    width: 50%; 
+} 
+
+.centernavheader
+{
+	border:2px solid black;
+	color:black;
+	width: 59.5%; 
+	position: fixed; 
+	z-index: 1; 
+	right: 10px;
+	background-color:lightblue; 
+	overflow-x: hidden; 
+	margin-right: 7.5%;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 12px;
+}
+
+.centernav
+{
+	border:2px solid black;
+	color:black;
+	width: 59.5%; 
+	position: fixed; 
+	z-index: 1; 
+	top: 85px;
+	right: 10px;
+	background-color:white; 
+	overflow-x: hidden; 
+	margin-right: 7.5%;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.centerSection
+{
+	float:right;
+}
