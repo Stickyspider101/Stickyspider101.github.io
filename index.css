@@ -88,3 +88,10 @@ body{
 a{
 	color:Lavender	;
 }
+
+hr.dotted {
+  border-top: 3px dotted #bbb;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
